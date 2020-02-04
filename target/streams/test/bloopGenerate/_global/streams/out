@@ -1,0 +1,4 @@
+[debug] [cool-game-test] Classpath dependencies List()
+[debug] [cool-game-test] Dependencies from configurations List(cool-game)
+[debug] Bloop wrote the configuration of project 'cool-game-test' to '/home/nasejevs/cool-game/.bloop/cool-game-test.json'
+[success] Generated .bloop/cool-game-test.json

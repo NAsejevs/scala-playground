@@ -1,0 +1,146 @@
+{
+    "version": "1.1.2",
+    "project": {
+        "name": "cool-game-test",
+        "directory": "/home/nasejevs/cool-game",
+        "workspaceDir": "/home/nasejevs/cool-game",
+        "sources": [
+            "/home/nasejevs/cool-game/src/test/scala-2.12",
+            "/home/nasejevs/cool-game/src/test/scala",
+            "/home/nasejevs/cool-game/src/test/java",
+            "/home/nasejevs/cool-game/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "cool-game"
+        ],
+        "classpath": [
+            "/home/nasejevs/cool-game/.bloop/cool-game/scala-2.12/classes",
+            "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+        ],
+        "out": "/home/nasejevs/cool-game/.bloop/cool-game",
+        "classesDir": "/home/nasejevs/cool-game/.bloop/cool-game/scala-2.12/test-classes",
+        "resources": [
+            "/home/nasejevs/cool-game/src/test/resources",
+            "/home/nasejevs/cool-game/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.10",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/jansi.jar",
+                "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/scala-library.jar",
+                "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar",
+                "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/jline.jar",
+                "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar",
+                "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar"
+            ],
+            "analysis": "/home/nasejevs/cool-game/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/nasejevs/snap/code/common/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/nasejevs/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/nasejevs/snap/code/common/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
